@@ -1,5 +1,7 @@
 url=$1
 lastUpdate=$2
+refreshSpeed=$3
+[[ -z $refreshSpeed ]] && refreshSpeed=5
 liveUrl=$(echo $url | sed 's/\(www\.\)theguardian.com/api.nextgen.guardianapps.co.uk/')'.json'
 [[ ! -z $lastUpdate ]] && liveUrl=$(echo $liveUrl"?lastUpdate=$lastUpdate&isLivePage=true")
 
@@ -21,5 +23,5 @@ while true; do
     echo '.\c'
   fi
 
-  sleep 5
+  sleep $refreshSpeed
 done
