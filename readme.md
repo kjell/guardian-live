@@ -5,14 +5,23 @@
 # Usage
 
 ```bash
-$ sh guardian-live-stream.sh https://www.theguardian.com/football/live/2016/nov/01/manchester-city-v-barcelona-champions-league-live
-[9.25pm GMT 21:25](/football/live/2016/nov/01/manchester-city-v-barcelona-champions-league-live?page=with:block-581907f9e4b07ceadb3a1621#block-581907f9e4b07ceadb3a1621)
+$ sh guardian-live-stream.sh https://www.theguardian.com/us-news/live/2016/nov/02/trump-clinton-news-live-election-2016
+--
+[8.22pm GMT
+20:22](/us-news/live/2016/nov/02/trump-clinton-news-live-election-2016?page=with:block-581a4aa1e4b0d073c27d0d04#block-581a4aa1e4b0d073c27d0d04)
 
-**83 min:** Barca win yet another corner, but at the third or fourth
-time of asking, Man City clear at the near post and set off on the
-counter-attack.
-[Barcelona](https://www.theguardian.com/football/barcelona) eventually
-clear their lines with Busquets whacking the ball out of play.
+President Obama: 'It’s not often that you can shape the arc of history'
+{#president-obama-its-not-often-that-you-can-shape-the-arc-of-history
+.block-title itemprop="headline"}
+-----------------------------------------------------------------------
+
+Speaking in Chapel Hill, North Carolina, President Barack Obama told a
+young audience [...]
+
+“There’s a lot in this election season that can give you reason to be
+cynical, but right now I just want you to know: All of you, it’s in your
+power to reject the divisive, mean-spirited politics that would take us
+backward. That’s not how it has to be. That’s not how it’s always been.”
 
 ...
 ```
